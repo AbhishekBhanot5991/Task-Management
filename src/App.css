@@ -1,0 +1,24 @@
+
+.app {
+  text-align: center;
+}
+
+form {
+  margin: 20px;
+}
+
+input {
+  margin: 5px;
+}
+
+button {
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 0;
+}
