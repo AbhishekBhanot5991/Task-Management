@@ -23,7 +23,7 @@ const  App =() =>{
   }; 
   return (
     <div className='app bg-black h-screen p-5'>
-        <h1 className='text-white text-lg'>Task Manager</h1>
+        <h1 className='text-white text-lg mb-5 text-4xl'>Task Manager</h1>
         <TaskForm addTask = {addTask}/>
         <TaskList tasks = {tasks} markTaskAsCompleted= {markTaskAsCompleted}/>
     </div>
