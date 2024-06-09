@@ -35,6 +35,7 @@ const  TaskForm = ({addTask}) => {
         <input 
         type="number"
         className='py-2 px-5 my-5'
+        min={1}
         placeholder='Time in Minutes'
         value={taskTime}
         onChange={(e)=> setTaskTime(e.target.value)}
